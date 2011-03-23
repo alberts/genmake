@@ -1,0 +1,8 @@
+DIRS=\
+	uuid\
+
+NOTEST=\
+
+TEST=$(filter-out $(NOTEST),$(DIRS))
+
+BENCH=$(filter-out $(NOBENCH),$(TEST))

@@ -1,0 +1,9 @@
+*~
+*.[568vqo]
+_obj/
+_cgo*
+_test/
+_testmain.go
+[568vq].out
+*.pb.go
+.DS_Store

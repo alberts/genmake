@@ -1,0 +1,9 @@
+DIRS=\
+	genmake\
+
+NOTEST=\
+	genmake\
+
+TEST=$(filter-out $(NOTEST),$(DIRS))
+
+BENCH=$(filter-out $(NOBENCH),$(TEST))
